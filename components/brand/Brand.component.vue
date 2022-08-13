@@ -18,7 +18,7 @@
       >
         All your style <br />Are here
       </h1>
-      <p class="my-4 md:my-8 text-normal w-full md:w-3/4">
+      <p class="my-4 md:my-8 font-normal w-full md:w-3/4">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
         voluptua. At vero eos et accusam et

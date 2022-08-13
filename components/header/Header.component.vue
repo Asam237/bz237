@@ -14,7 +14,7 @@
       <nav v-for="(item, myIndex) in main" :key="myIndex">
         <ul class="mt-2 md:my-0 mx-0 md:mx-2">
           <a
-            class="uppercase text-md md:text-base normal hover:underline"
+            class="uppercase text-md md:text-base font-normal hover:underline"
             :href="item.link"
             target="_blank"
             >{{ item.name }}</a
