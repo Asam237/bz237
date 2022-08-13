@@ -7,13 +7,18 @@
       </div>
     </div>
     <div style="background: #654642">
-      <div class="container mx-auto py-6">
+      <div class="container mx-auto py-6 md:py-12">
         <JoinCommunityComponent />
       </div>
     </div>
     <div style="background: white">
       <div class="container mx-auto pt-12 md:pt-24 mb-8 md:mb-16">
         <CollectionsComponent />
+      </div>
+    </div>
+    <div style="background: #654642">
+      <div class="container mx-auto py-6">
+        <FooterComponent />
       </div>
     </div>
   </div>
