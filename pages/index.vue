@@ -16,6 +16,11 @@
         <CollectionsComponent />
       </div>
     </div>
+    <div style="background: #f7f2ed">
+      <div class="container mx-auto py-6 md:py-12">
+        <DealOfDayComponent />
+      </div>
+    </div>
     <div style="background: #654642">
       <div class="container mx-auto py-6">
         <FooterComponent />
