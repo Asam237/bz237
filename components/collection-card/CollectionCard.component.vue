@@ -5,7 +5,7 @@
       class="w-full h-[250px] md:mx-4 mt-4 md:mt-0"
     >
       <img
-        class="h-full mx-auto w-auto"
+        class="w-auto h-full mx-auto"
 				alt=""
 				:src="require(`../../assets/imgs/${mypict}`)"
       />
@@ -13,7 +13,7 @@
         style="opacity: 0.8"
         class="mx-2 mt-[-50px] flex justify-center items-center"
       >
-        <p class="uppercase font-normal bg-white w-full text-center py-2">
+        <p class="w-full py-2 font-normal text-center uppercase bg-white">
           {{ name }}
         </p>
       </div>

@@ -7,22 +7,27 @@
       </div>
     </div>
     <div style="background: #654642">
-      <div class="container mx-auto py-6 md:py-12">
+      <div class="container py-6 mx-auto md:py-12">
         <JoinCommunityComponent />
       </div>
     </div>
     <div style="background: white">
-      <div class="container mx-auto pt-12 md:pt-24 mb-8 md:mb-16">
+      <div class="container pt-12 mx-auto mb-8 md:pt-24 md:mb-16">
         <CollectionsComponent />
       </div>
     </div>
+    <div style="background: white">
+      <div class="container pt-12 mx-auto mb-8 md:pt-24 md:mb-16">
+        <OurProductComponent />
+      </div>
+    </div>
     <div style="background: #f7f2ed">
-      <div class="container mx-auto py-6 md:py-12">
+      <div class="container py-6 mx-auto md:py-12">
         <DealOfDayComponent />
       </div>
     </div>
     <div style="background: #654642">
-      <div class="container mx-auto py-6">
+      <div class="container py-6 mx-auto">
         <FooterComponent />
       </div>
     </div>
