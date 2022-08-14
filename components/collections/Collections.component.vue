@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-4 md:mx-0">
+  <div class="mx-4 md:mx-0" style="font-family: 'Raleway', sans-serif">
     <div>
       <h1
         style="font-family: 'DynaPuff', cursive; color: #654642"
@@ -17,9 +17,11 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-col justify-center mt-8 sm:flex-row md:mt-16">
+    <div
+      class="flex flex-col flex-col-reverse justify-center mt-8 sm:flex-row md:mt-16 mb-20"
+    >
       <div
-        class="h-[350px] w-full md:w-[350px] rounded-tl-[100px] flex justify-center items-center"
+        class="h-[350px] w-full md:w-[350px] rounded-tl-[100px] flex justify-center items-center mt-6 md:mt-0"
         style="background: #a1e7f0"
       >
         <img :src="require('../../assets/imgs/pict02.png')" alt="" />
@@ -31,7 +33,7 @@
         >
           Best Fashion <br />Sicnce 2022
         </h1>
-        <p class="text-center md:text-start md:w-[450px] mt-4">
+        <p class="text-center md:text-start md:w-[400px] mt-4">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
           sed diam voluptua.

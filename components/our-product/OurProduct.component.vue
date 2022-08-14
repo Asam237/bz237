@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-4 md:mx-0">
+  <div class="mx-4 md:mx-0" style="font-family: 'Raleway', sans-serif">
     <div>
       <h1
         style="font-family: 'DynaPuff', cursive; color: #654642"
@@ -10,11 +10,11 @@
       <div class="flex flex-row justify-center mt-4 ">
         <ul
           v-for="(item, myIndex) in main"
-          :key="myIndex"
-          class="mx-2 my-0 mt-2"
+					:key="myIndex"
+					class="hidden mx-2 my-0 mt-2 md:flex"
         >
           <a
-            class="font-normal uppercase text-md md:text-base hover:underline"
+            class="font-semibold uppercase text-md md:text-base hover:underline"
             :href="item.link"
             target="_blank"
             >{{ item.name }}</a

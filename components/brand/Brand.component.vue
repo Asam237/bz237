@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col p-4 md:pt-28 md:flex-row">
+  <div class="flex flex-col px-4 pt-20 md:pt-28 md:flex-row">
     <div class="justify-center hidden md:flex md:flex-col w-28">
       <div style="background: #654642; width: 1px" class="ml-2 h-14" />
       <div class="my-6">
@@ -18,21 +18,26 @@
       >
         All your style <br />Are here
       </h1>
-      <p class="w-full my-4 font-normal text-center md:my-8 md:w-3/4 md:text-left">
+      <p
+        class="w-full my-4 font-normal text-center md:my-8 md:w-3/4 md:text-left"
+        style="font-family: 'Raleway', sans-serif"
+      >
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et
+        voluptua.
       </p>
       <div class="flex justify-center mt-4 mb-8 md:mb-0 md:justify-start">
         <button
-          style="background: #654642"
-          class="px-8 py-2 text-white rounded-full md:px-6"
+          style="background: #654642; font-family: 'Raleway', sans-serif"
+          class="px-8 py-2 font-semibold text-white rounded-full md:px-6"
         >
           Shop now
         </button>
       </div>
     </div>
-    <div class="flex justify-center w-full mt-4 mb-12 md:justify-start md:w-2/5 md:mt-8 md:mb-0">
+    <div
+      class="flex justify-center w-full mt-4 mb-12 md:justify-start md:w-2/5 md:mt-8 md:mb-0"
+    >
       <img class="w-[300px] h-auto" :src="brandpic" alt="" />
     </div>
   </div>

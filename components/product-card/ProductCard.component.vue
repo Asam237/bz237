@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-12 mb-12 md:mx-4 md:mt-0">
+  <div class="mt-12 mb-24 md:mx-4 md:mt-0">
     <div
       style="background: #d3d1d1"
       class="w-full h-[250px] md:mx-4 mt-4 md:mt-0"
@@ -17,12 +17,12 @@
           />
         </div>
       </div>
-      <p class="w-full py-1 font-normal bg-white text-start">
+      <p class="w-full py-1 font-semibold bg-white text-start">
         {{ name }}
       </p>
       <div class="flex">
         <p class="text-gray-500 line-through">$220</p>
-        <p class="ml-3">$140</p>
+        <p class="ml-3 font-semibold">$140</p>
       </div>
     </div>
   </div>

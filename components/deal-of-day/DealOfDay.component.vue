@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-4 md:mx-0">
+  <div class="mx-4 md:mx-0" style="font-family: 'Raleway', sans-serif">
     <div class="flex flex-col justify-center mt-8 sm:flex-row md:mt-16">
       <div class="hidden w-1/4 md:flex" />
 
@@ -23,7 +23,7 @@
         <div class="flex justify-center mb-4 md:mb-0 md:justify-start">
           <button
             style="background: #654642"
-            class="px-8 py-2 text-base text-white uppercase rounded-full md:text-xl"
+            class="px-8 py-2 text-base text-white uppercase rounded-full md:text-xl font-semibold"
           >
             Shop now
           </button>

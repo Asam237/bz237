@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div style="font-family: 'Raleway', sans-serif" class="py-8 md:py-0">
     <h1
       class="text-base font-normal text-center text-gray-200 md:text-xl md:text-left"
     >
-      Join our <span class="font-bold">WoilaTchogou237</span> Community
+      Join our <span class="font-extrabold">WoilaTchogou237</span> Community
     </h1>
     <div
       class="flex flex-col justify-center mx-4 mt-3 md:mt-6 md:flex-row md:justify-start md:mx-0"

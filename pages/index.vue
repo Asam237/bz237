@@ -46,6 +46,10 @@ export default {
     link: [
       {
         rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap',
+      },
+      {
+        rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=DynaPuff&display=swap',
       },
     ],

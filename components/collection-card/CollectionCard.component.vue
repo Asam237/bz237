@@ -13,7 +13,7 @@
         style="opacity: 0.8"
         class="mx-2 mt-[-50px] flex justify-center items-center"
       >
-        <p class="w-full py-2 font-normal text-center uppercase bg-white">
+        <p class="w-full py-2 font-bold text-center uppercase bg-white">
           {{ name }}
         </p>
       </div>
