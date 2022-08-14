@@ -43,6 +43,7 @@
 export default {
   name: 'IndexPage',
   head: {
+		title: "WoilaTchogou237  |  Accueil",
     link: [
       {
         rel: 'stylesheet',
