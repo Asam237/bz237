@@ -1,0 +1,41 @@
+{
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  },
+  "BestSellerComponent": {
+    "description": "Auto imported from components/best-seller/BestSeller.component.vue"
+  },
+  "BrandComponent": {
+    "description": "Auto imported from components/brand/Brand.component.vue"
+  },
+  "CollectionCardComponent": {
+    "description": "Auto imported from components/collection-card/CollectionCard.component.vue"
+  },
+  "CollectionsComponent": {
+    "description": "Auto imported from components/collections/Collections.component.vue"
+  },
+  "DayCardComponent": {
+    "description": "Auto imported from components/day-card/DayCard.component.vue"
+  },
+  "DealOfDayComponent": {
+    "description": "Auto imported from components/deal-of-day/DealOfDay.component.vue"
+  },
+  "FooterComponent": {
+    "description": "Auto imported from components/footer/Footer.component.vue"
+  },
+  "HeaderComponent": {
+    "description": "Auto imported from components/header/Header.component.vue"
+  },
+  "JoinCommunityComponent": {
+    "description": "Auto imported from components/join-community/JoinCommunity.component.vue"
+  },
+  "OurProductComponent": {
+    "description": "Auto imported from components/our-product/OurProduct.component.vue"
+  },
+  "ProductCardComponent": {
+    "description": "Auto imported from components/product-card/ProductCard.component.vue"
+  }
+}
