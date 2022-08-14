@@ -1,6 +1,6 @@
 <template>
   <header
-    class="flex flex-col md:flex-row flex-start md:justify-between p-4 md:p-0"
+    class="flex flex-row items-center justify-between p-4 flex-start md:p-0"
   >
     <div>
       <h4
@@ -10,11 +10,11 @@
         WoilaTchogou237
       </h4>
     </div>
-    <div class="flex flex-col md:flex-row">
+    <div class="flex-col hidden md:flex md:flex-row">
       <nav v-for="(item, myIndex) in main" :key="myIndex">
-        <ul class="mt-2 md:my-0 mx-0 md:mx-2">
+        <ul class="mx-0 mt-2 md:my-0 md:mx-2">
           <a
-            class="uppercase text-md md:text-base font-normal hover:underline"
+            class="font-normal uppercase text-md md:text-base hover:underline"
             :href="item.link"
             target="_blank"
             >{{ item.name }}</a
@@ -22,11 +22,11 @@
         </ul>
       </nav>
     </div>
-    <div class="pt-4 md:pt-0 flex flex-row">
+    <div class="flex flex-row pt-4 md:pt-0">
       <nav v-for="(item, myIndex) in icons" :key="myIndex">
-        <ul class="mt-2 md:my-0 mx-0 md:mx-2">
+        <ul class="mx-0 md:my-0 md:mx-2">
           <a :href="item.link"
-            ><img class="w-5 h-5 ml-2" :src="item.icon"
+            ><img class="w-5 h-5 ml-3" :src="item.icon"
           /></a>
         </ul>
       </nav>

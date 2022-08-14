@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-4 mx-0">
+  <div class="mx-4 md:mx-0">
     <div>
       <h1
         style="font-family: 'DynaPuff', cursive; color: #654642"
@@ -11,20 +11,20 @@
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod.
       </p>
-      <div class="flex flex-col sm:flex-row justify-center mt-8 md:mt-16">
+      <div class="flex flex-col justify-center mt-8 sm:flex-row md:mt-16">
         <div v-for="(item, myIndex) in collections" :key="myIndex">
           <CollectionCardComponent :name="item.name" :mypict="item.picture" />
         </div>
       </div>
     </div>
-    <div class="flex flex-col sm:flex-row justify-center mt-8 md:mt-16">
+    <div class="flex flex-col justify-center mt-8 sm:flex-row md:mt-16">
       <div
         class="h-[350px] w-full md:w-[350px] rounded-tl-[100px] flex justify-center items-center"
         style="background: #a1e7f0"
       >
         <img :src="require('../../assets/imgs/pict02.png')" alt="" />
       </div>
-      <div class="mt-6 md:mt-0 ml-0 md:ml-8 md:w-1/4">
+      <div class="mt-6 ml-0 md:mt-0 md:ml-8 md:w-1/4">
         <h1
           style="font-family: 'DynaPuff', cursive; color: #654642"
           class="text-[30px] md:text-[40px] text-center md:text-start"
@@ -52,11 +52,11 @@ export default {
         },
         {
           name: 't-shirt',
-          picture: 'pict02.png',
+          picture: 'pict04.png',
         },
         {
           name: 't-shirt',
-          picture: 'pict01.png',
+          picture: 'pict03.png',
         },
       ],
     }

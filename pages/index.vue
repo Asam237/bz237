@@ -1,13 +1,13 @@
 <template>
   <div>
     <div style="background: #f7f2ed">
-      <div class="container mx-auto md:py-10">
+      <div class="container mx-auto md:py-12">
         <HeaderComponent />
         <BrandComponent />
       </div>
     </div>
     <div style="background: #654642">
-      <div class="container py-6 mx-auto md:py-12">
+      <div class="container py-6 mx-auto md:py-20">
         <JoinCommunityComponent />
       </div>
     </div>
@@ -16,12 +16,17 @@
         <CollectionsComponent />
       </div>
     </div>
+    <div style="background: #654642">
+      <div class="container py-6 mx-auto md:py-12">
+        <BestSellerComponent />
+      </div>
+    </div>
     <div style="background: white">
       <div class="container pt-12 mx-auto mb-8 md:pt-24 md:mb-16">
         <OurProductComponent />
       </div>
     </div>
-    <div style="background: #f7f2ed">
+    <div style="background: #f7f2ed" class="mt-24 md:mt-0">
       <div class="container py-6 mx-auto md:py-12">
         <DealOfDayComponent />
       </div>
