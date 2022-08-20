@@ -13,4 +13,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Run linter
-        run: yarn add eslint eslint-plugin-nuxt eslint-plugin-vue eslint-config-prettier & yarn lint
+        run: yarn add eslint & yarn lint
