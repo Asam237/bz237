@@ -13,4 +13,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Run linter
-        run: yarn lint
+        run: yarn install eslint & yarn lint
