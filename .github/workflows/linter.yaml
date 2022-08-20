@@ -10,6 +10,7 @@ jobs:
   eslint:
     runs-on: ubuntu-latest
     steps:
-      - name: "Linter"
-      - uses: actions/checkout@v2
-      - run: yarn install & yarn lint
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Run linter
+        run: yarn install & yarn lint
