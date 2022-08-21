@@ -1,16 +1,16 @@
 name: linter
 on:
-  push:
+  pull_request:
     branches:
       - main
-  pull_request:
+  push:
     branches:
       - main
 jobs:
   eslint:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Run linter
-        run: yarn & yarn lint
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Run Linter
+      run: yarn
